@@ -1,0 +1,11 @@
+BEGIN
+  REAL nota1;
+  REAL nota2;
+  REAL media;
+  print(("Digite a primeira nota: "));
+  read((nota1));
+  print(("Digite a segunda nota: "));
+  read((nota2));
+  media := (nota1 + nota2) / 2;
+  print((media))
+END
